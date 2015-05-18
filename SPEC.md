@@ -24,9 +24,10 @@ These yellow cells should be represented in the following JSON format:
 Note that for the same row the value "top" is the same. Cells in the same row may or may not have the same height.
 
 I have another service which works well with cells which are all clearly delimited with vertical and horizontal lines (using a Hough Lines algorithm), but it breaks for anything else, e.g.:
-- horizontal lines only
-- vertical lines only
-- a single border around the entire table
+
+* horizontal lines only
+* vertical lines only
+* a single border around the entire table
 
 If you can find a generalised solution which works for any "grid-like" thing on a PDF page, all the better.
 
@@ -45,11 +46,12 @@ I made the decision to involve someone with a better grasp of computer vision be
 # Thoughts
 
 I'm sure 'some' assumptions about PDFs can be made:
-- font sizes won't ever be less then N pixels (I haven't determined this value yet, but can it be no smaller than a few pixels, otherwise the text would be illegible)
-- no 'single column' tables
-- no 'single row' tables
-- tables don't always have a header - this is mostly due to tables continuing from the previous page.
-- tables can be 'surrounded' by text, either to one side, top/bottom, or a combination of these.
+
+* font sizes won't ever be less then N pixels (I haven't determined this value yet, but can it be no smaller than a few pixels, otherwise the text would be illegible)
+* no 'single column' tables
+* no 'single row' tables
+* tables don't always have a header - this is mostly due to tables continuing from the previous page.
+* tables can be 'surrounded' by text, either to one side, top/bottom, or a combination of these.
 
 # Next steps
 
@@ -58,7 +60,8 @@ Please only work in up-to-5-hour spurts for now (this is a self-funded op!). So,
 Stéfan already explained a possible approach over Skype, so I'm happy with you to just start working on that approach.
 
 Please get in contact ASAP if you have any questions/qualms:
-- juan@uys.io
-- +44 (0) 7702 783 956
-- Skype: opyate
+
+* juan@uys.io
+* +44 (0) 7702 783 956
+* Skype: opyate
 

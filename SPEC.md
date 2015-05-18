@@ -33,6 +33,8 @@ If you can find a generalised solution which works for any "grid-like" thing on 
 
 # Existing code
 
+(*please feel free to throw all of it away if the "rivers" approach is silly*)
+
 The code startswith coordinator.py which accepts a PDF URL and spits out some boxes, with some supporting code in lib.
 
 lib/gridfinder.py gives results as Python dicts.

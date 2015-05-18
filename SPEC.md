@@ -16,7 +16,8 @@ These yellow cells should be represented in the following JSON format:
         "width": 100, "top": 300, "height": 10, "left": 25
     }, {
         "width": 70, "top": 300, "height": 10, "left": 135
-    }, /* ...and so forth */]
+    }, /* ...and 8 more that correspond to "Australia" */,
+    /* ...and then 10 that correspond to "Austria", and so forth */]
 
 ...where the first object is 1, and the second is 2 on the image.
 

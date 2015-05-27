@@ -111,7 +111,11 @@ for i, filename in enumerate(filenames):
 
     # refind contours in merged line image
     boximage = newimage.copy()
-    _, contours, _ = cv2.findContours(newimage, cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
+    results = cv2.findContours(newimage, cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
+    if len(results) == 2:
+        contours = results[0]
+    else:
+        contours = results[1]
     # make histogram of x coverage of word boxes.
     hist_x1 = np.zeros(image.shape[1])
     for contour in contours:

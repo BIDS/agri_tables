@@ -54,16 +54,3 @@ I'm sure 'some' assumptions about PDFs can be made:
 * no 'single row' tables
 * tables don't always have a header - this is mostly due to tables continuing from the previous page.
 * tables can be 'surrounded' by text, either to one side, top/bottom, or a combination of these.
-
-# Next steps
-
-Please only work in up-to-5-hour spurts for now (this is a self-funded op!). So, work 5 hours, stop, let me know where you got to, and I'll give the next go-ahead.
-
-Stéfan already explained a possible approach over Skype, so I'm happy with you to just start working on that approach.
-
-Please get in contact ASAP if you have any questions/qualms:
-
-* juan@uys.io
-* +44 (0) 7702 783 956
-* Skype: opyate
-
